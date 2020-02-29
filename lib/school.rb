@@ -25,6 +25,7 @@ end
 
 def sort
   @roster.each do |name, grade|
+    name.sort!
     
   end
 
