@@ -12,8 +12,8 @@ def roster
 end
 
 def add_student(name, grade)
-@roster["students"] = []
-@roster["students"] << "#{name}, #{grade}"
+if 
+@roster[grade] =
 
 end
 
