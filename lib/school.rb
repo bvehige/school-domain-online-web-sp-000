@@ -18,6 +18,8 @@ def add_student(name, grade)
  else
   @roster[grade] = [name] 
 end
+end
+
 
 def grade(grade)
   @roster[grade]
@@ -27,6 +29,8 @@ def sort
   @roster.each do |name, grade|
     name.sort!
   end
+end
+
 
 
   
